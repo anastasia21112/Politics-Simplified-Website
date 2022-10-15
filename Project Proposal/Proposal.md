@@ -52,7 +52,13 @@ A quiz that takes in information about the voter’s beliefs and tries to match 
 ![image info](./assets/Politics-Simplified-Wireframes-08.png)
 ![image info](./assets/Politics-Simplified-Wireframes-11.png)
 
-* Model
+* Algorithm/Model/Train/Test
+
+1. Preproccess data from datasets, pre-existing models, and web scraper
+2. Define features and characteristics
+3. Create NLP model that performs relationship extraction and topic classification
+4. Train NLP model on data to extract candidates political views/beliefs based off of multitude of news and external site data.
+5. Perform manual evaluation
 
 ### Datasets and Models
 
