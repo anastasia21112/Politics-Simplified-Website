@@ -16,41 +16,41 @@ FIGMA: https://www.figma.com/file/oTJ01qrMXORmN2J87fd6kl/Politics-Simplified-Wir
   
 When the user first clicks onto the website, the user will be taken to the welcome screen that welcomes them to the site along with a quick tagline of what the website does. It will prompt the user to enter information about their Massachusetts country. 
 
-![image info](./assets/Politics-implified-Wireframes-01.png)
-![image info](./assets/Politics-implified-Wireframes-07.png)
+![image info](./assets/Politics-Simplified-Wireframes-01.png)
+![image info](./assets/Politics-Simplified-Wireframes-07.png)
 
 * About (Politics)
 
 There will be a page with a general description of how the political structure of Massachusetts works and how our project fits into that. It will also have general information about politics. 
 
-![image info](./assets/Politics-implified-Wireframes-12.png)
+![image info](./assets/Politics-Simplified-Wireframes-12.png)
 
 * About (Project)
   
 This general about page will serve as a way for users to understand what our model does. We will be transparent about where the data comes from, the algorithm used, and how we created the political platforms. 
-![image info](./assets/Politics-implified-Wireframes-03.png)
-![image info](./assets/Politics-implified-Wireframes-09.png)
-![image info](./assets/Politics-implified-Wireframes-13.png)
+![image info](./assets/Politics-Simplified-Wireframes-03.png)
+![image info](./assets/Politics-Simplified-Wireframes-09.png)
+![image info](./assets/Politics-Simplified-Wireframes-13.png)
 
 * Results
 
 This is where the different political candidates are presented based on what the user enters for their county. There will be different cards for each candidate that the user can click through. 
 
-![image info](./assets/Politics-implified-Wireframes-04.png)
-![image info](./assets/Politics-implified-Wireframes-05.png)
+![image info](./assets/Politics-Simplified-Wireframes-04.png)
+![image info](./assets/Politics-Simplified-Wireframes-05.png)
 
 * Profile Card
 
 Contain top news sources the candidate has been mentioned in, top ideas that they talk about, a graph of 10 years of how much the candidate has been in the news. 
-![image info](./assets/Politics-implified-Wireframes-06.png)
-![image info](./assets/Politics-implified-Wireframes-10.png)
+![image info](./assets/Politics-Simplified-Wireframes-06.png)
+![image info](./assets/Politics-Simplified-Wireframes-10.png)
 * Quiz
   
 A quiz that takes in information about the voter’s beliefs and tries to match the voter with a candidate in their area that has views similar to them. 
 
-![image info](./assets/Politics-implified-Wireframes-02.png)
-![image info](./assets/Politics-implified-Wireframes-08.png)
-![image info](./assets/Politics-implified-Wireframes-11.png)
+![image info](./assets/Politics-Simplified-Wireframes-02.png)
+![image info](./assets/Politics-Simplified-Wireframes-08.png)
+![image info](./assets/Politics-Simplified-Wireframes-11.png)
 
 * Model
 
