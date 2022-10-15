@@ -14,7 +14,7 @@ Our project will focus on creating a website that analyzes news articles, social
   
 When the user first clicks onto the website, the user will be taken to the welcome screen that welcomes them to the site along with a quick tagline of what the website does. It will prompt the user to enter information about their Massachusetts country. 
 
-![image info](./pictures/image.png)
+![image info](./assets/Politics Simplified Wireframes-01.png)
 
 * About (Politics)
 
