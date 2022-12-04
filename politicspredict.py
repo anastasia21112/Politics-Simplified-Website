@@ -52,10 +52,15 @@ def get_all_stories_file(mc_client, q, fq):
     story_df = pandas.read_csv('story-list.csv')
     return story_df
 def get_words_from_all_websites(stories_file):
-    urls = list(stories_file['url'])[-50:-1]
+    urls = list(stories_file['url'])[-20:-1]
+    urls_string = ""
+    for url in urls:
+        urls_string += url + ","
+    print(urls_string)
     ultimate_string = ""
     for count, url in enumerate(urls):
         print("On the ", count, "URL.")
+        print("The URL is, ", url)
         try:
             page = requests.get(url)
         except:
@@ -77,14 +82,14 @@ def get_words_from_all_websites(stories_file):
         without_stop_words = [word for word in words if not word in stop_words]
         without_stop_words_string = ''.join(without_stop_words)
         ultimate_string += without_stop_words_string
-    return ultimate_string
+    return ultimate_string, urls_string
 def get_polarity_score(mc_client, q, fq):
     print("in this function")
     stories_file = get_all_stories_file(mc_client, q, fq)
-    all_words = get_words_from_all_websites(stories_file)
+    all_words, urls_string = get_words_from_all_websites(stories_file)
     sia = SentimentIntensityAnalyzer()
     score = sia.polarity_scores(all_words)
-    return score
+    return score, urls_string
 # mc = mediacloud.api.MediaCloud('d6c3a5b68985d91494c3e253f1378bbbb098259d7668ddadc42146b7bbc9ca4e')
 # my_query = "Joseph Ferreira AND Massachusetts"
 # start_date = datetime.date(2022,10,4)

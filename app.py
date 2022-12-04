@@ -47,11 +47,11 @@ def predict():
     start_date = datetime.date(2022,10,4)
     end_date = datetime.date(2022,11,4)
     date_range = mc.dates_as_query_clause(start_date, end_date)
-    sentiment_score = get_polarity_score(mc, review_text, date_range)
+    sentiment_score, urls_returned = get_polarity_score(mc, review_text, date_range)
 
     # sentiment_score = get_score(sentiment_pipeline(review_text)[0])
     
-    return render_template('predict.html', text = review_text, prediction = sentiment_score)
+    return render_template('predict.html', text = review_text, prediction = sentiment_score, urls = urls_returned)
 
     # sentiment_score = "NA"
     # # if request.method == 'POST':    
