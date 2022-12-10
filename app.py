@@ -39,9 +39,8 @@ def sentiment():
 def predict():
     to_predict_list = request.form.to_dict()
     print("to_predict_list", request.form)
-    review_text = to_predict_list['review_text']
-    review_text.lstrip()
-    review_text.rstrip()
+    review_text = to_predict_list['state_text'].strip() + " AND " + to_predict_list['candidate_text'].strip()
+    
     print("review text", review_text)
     mc = mediacloud.api.MediaCloud('d6c3a5b68985d91494c3e253f1378bbbb098259d7668ddadc42146b7bbc9ca4e')
     start_date = datetime.date(2022,10,4)
